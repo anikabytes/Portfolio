@@ -1,11 +1,16 @@
 {
+  "homepage" : "http://anikabytes.github.io/Portfolio",
   "name": "anika_portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+   "predeploy": "npm run build",
+   "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "dev": "vite",
-    "build": "vite build",
+    
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -30,6 +35,6 @@
     "eslint-plugin-react-refresh": "^0.4.6",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.1",
-    "vite": "^5.2.0"
+    "vite": "^5.4.8"
   }
 }
