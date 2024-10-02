@@ -1,8 +1,8 @@
 {
-  "homepage": "http://anikabytes.github.io/Portfolio",
   "name": "anika_portfolio",
+  "version": "0.0.1",
   "private": true,
-  "version": "0.0.0",
+  "homepage": "https://anikabytes.github.io/Portfolio",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
