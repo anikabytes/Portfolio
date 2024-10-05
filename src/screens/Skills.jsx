@@ -21,6 +21,7 @@ const Skills = () => {
     },
   ];
 
+
   return (
     <div className="bg-rose-800 m-20 max-w-full hover:bg-rose-600">
       <div className="grid justify-items-center m-2">
@@ -28,7 +29,7 @@ const Skills = () => {
       </div>
       <div className="grid grid-cols-5 gap-3 p-5">
         {skillIcons.map((skill, index) => (
-          <div key={index} className="flex justify-center items-center">
+          <div key={index} className="flex justify-center items-center overflow-hidden">
             {skill.icon}
           </div>
         ))}

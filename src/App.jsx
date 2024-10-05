@@ -8,7 +8,7 @@ import Projects from "./screens/Projects";
 
 
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route
 } from 'react-router-dom';
@@ -26,7 +26,7 @@ const App = () => {
 
        <div>
 
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
 
           
@@ -38,7 +38,7 @@ const App = () => {
           
 
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
       
       </div> 
       
