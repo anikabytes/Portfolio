@@ -21,7 +21,7 @@ const App = () => {
   };
 
   return (
-    <div className="bg-slate-900 hover:bg-slate-800">
+    <div className="bg-gradient-to-r from-black via-cyan-500 to-black">
       {/* Pass the scrollToSection function and refs to the Navbar */}
       <Navbar
         scrollToSkills={() => scrollToSection(skillsRef)}
