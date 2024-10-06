@@ -49,9 +49,8 @@ const Experiences = () => {
   ];
 
   const handleBoxClick = (link) => {
-    window.location.href = link;
+    window.open(link, '_blank'); 
   };
-
   return (
     <div className="animate-border-pulse border-4 border-cyan-300 bg-opacity-35 m-5 sm:m-20 max-w-full  p-5">
       <div className="grid justify-items-center m-5 md:m-10">

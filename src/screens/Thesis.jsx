@@ -13,9 +13,8 @@ const Thesis = () => {
   ];
 
   const handleBoxClick = (link) => {
-    window.location.href = link;
+    window.open(link, '_blank'); 
   };
-
   return (
     <div className="min-h-screen bg-slate-900 bg-opacity-35 text-white flex flex-col justify-center items-center">
       <div className="w-full max-w-5xl border-4 border-cyan-300 animate-border-pulse m-5 sm:m-20 p-5">

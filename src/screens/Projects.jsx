@@ -29,7 +29,7 @@ const Projects = () => {
   ];
 
   const handleBoxClick = (link) => {
-    window.location.href = link;
+    window.open(link, '_blank'); 
   };
 
   return (

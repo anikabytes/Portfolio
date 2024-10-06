@@ -28,7 +28,7 @@ const Education = () => {
   ];
 
   const handleBoxClick = (link) => {
-    window.location.href = link;
+    window.open(link, '_blank'); // Open link in a new tab
   };
 
   return (
