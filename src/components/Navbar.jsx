@@ -40,10 +40,10 @@ const Navbar = ({ scrollToSkills, scrollToExperiences, scrollToEducation, scroll
             <button onClick={() => { scrollToEducation(); toggleSidebar(); }} className="hover:underline hover:underline-offset-4 hover:decoration-cyan-300 font-extrabold font-serif text-cyan-300 hover:text-white px-5 py-2 text-xl">
               Education 
             </button>
-            <button onClick={() => { scrollToAchievements(); toggleSidebar(); }} className="hover:underline hover:underline-offset-4 hover:decoration-cyan-300 font-extrabold font-serif text-cyan-300 hover:text-white px-5 py-2 text-xl">
+            <button onClick={() => { scrollToProjects(); toggleSidebar(); }} className="hover:underline hover:underline-offset-4 hover:decoration-cyan-300 font-extrabold font-serif text-cyan-300 hover:text-white px-5 py-2 text-xl">
             Projects
             </button>
-            <button onClick={() => { scrollToProjects(); toggleSidebar(); }} className="hover:underline hover:underline-offset-4 hover:decoration-cyan-300 font-extrabold font-serif text-cyan-300 hover:text-white px-5 py-2 text-xl ">
+            <button onClick={() => { scrollToAchievements(); toggleSidebar(); }} className="hover:underline hover:underline-offset-4 hover:decoration-cyan-300 font-extrabold font-serif text-cyan-300 hover:text-white px-5 py-2 text-xl ">
               Achievements
             </button>
           </div>
@@ -60,10 +60,10 @@ const Navbar = ({ scrollToSkills, scrollToExperiences, scrollToEducation, scroll
           <button onClick={scrollToEducation} className="animate-pulse hover:underline hover:underline-offset-4 hover:decoration-cyan-300 font-extrabold font-serif text-white hover:text-cyan-300 px-5 py-2 text-xl ">
             Education
           </button>
-          <button onClick={scrollToAchievements} className="animate-pulse hover:underline hover:underline-offset-4 hover:decoration-cyan-300 font-extrabold font-serif text-white hover:text-cyan-300 px-5 py-2 text-xl ">
+          <button onClick={scrollToProjects} className="animate-pulse hover:underline hover:underline-offset-4 hover:decoration-cyan-300 font-extrabold font-serif text-white hover:text-cyan-300 px-5 py-2 text-xl ">
           Projects
           </button>
-          <button onClick={scrollToProjects} className="animate-pulse hover:underline hover:underline-offset-4 hover:decoration-cyan-300 font-extrabold font-serif text-white hover:text-cyan-300 px-5 py-2 text-xl ">
+          <button onClick={scrollToAchievements} className="animate-pulse hover:underline hover:underline-offset-4 hover:decoration-cyan-300 font-extrabold font-serif text-white hover:text-cyan-300 px-5 py-2 text-xl ">
             Achievements
           </button>
         </div>

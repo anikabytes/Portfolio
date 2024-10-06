@@ -29,6 +29,7 @@ const App = () => {
         scrollToSkills={() => scrollToSection(skillsRef)}
         scrollToExperiences={() => scrollToSection(experiencesRef)}
         scrollToEducation={() => scrollToSection(educationRef)}
+        scrollToProjects={() => scrollToSection(projectsRef)}
         scrollToAchievements={() => scrollToSection(achievementsRef)}
         scrollToProjects={() => scrollToSection(projectsRef)}
       />
