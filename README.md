@@ -9,8 +9,8 @@ I have created this Portfolio using Vite, React JS & Tailwind CSS.
 <br>• Projects </br>
 <br>• Achievements </br>
 
-** Mobile and Desktop Responsive
-** Future Implementation: Course Tracker 
+<br> ** Mobile and Desktop Responsive </br>
+<br> ** Future Implementation: Course Tracker </br>
 
 ### Live Demo 
 https://anikabytes.github.io/Portfolio/
