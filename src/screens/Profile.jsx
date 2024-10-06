@@ -28,10 +28,10 @@ const Profile = () => {
   return (
     <section className="flex justify-around items-center p-10 space-x-5 lg:flex-row ssm:flex-col ssm:space-y-10 text-cyan-400">
       <div className="lg:w-1/3 ssm:w-fit">
-        <p className="animate-pulse text-4xl mb-5 font-serif text-sky-300 ">
+        <p className=" text-4xl mb-5 font-serif text-cyan-300 ">
           Hello, Everyone. I am 
         </p>
-        <h1 className="animate-pulse text-8xl font-serif text-bold ">
+        <h1 className=" text-8xl font-serif text-bold ">
           {displayedText}
         </h1>
         <p className="mt-10 text-xl font-sans">
@@ -45,12 +45,12 @@ const Profile = () => {
           alt="Anika" 
           width={200} 
           height={200}
-          className=" rounded-full w-fit border-8 border-white hover:border-cyan-500"
+          className="animate-border-pulse rounded-full w-fit border-8 border-cyan-300 hover:border-cyan-500"
         />
       </div>
 
       <div className='w-1/3 items-center ssm:w-fit'>
-        <p className="animate-pulse text-4xl mb-4 text-sky-300  font-serif">About Me</p>
+        <p className="text-4xl mb-4 text-cyan-300 font-serif">About Me</p>
         <p className="animate-pulse text-slate-300  font-serif">
           An aspiring student of CSE 
           <p className="animate-pulse text-slate-300  font-serif">
@@ -66,16 +66,16 @@ const Profile = () => {
 
         <div className="animate-bounce flex mt-5 space-x-4 cursor-pointer">
           <a href="https://www.facebook.com/anikaislamporoma" target="_blank" rel="noopener noreferrer">
-            <BsFacebook size={40} className="border-4 hover:border-slate-800 rounded-full" />
+            <BsFacebook size={40} className="border-4 hover:border-cyan-300 rounded-full" />
           </a>
           <a href="https://www.linkedin.com/in/anika-islam-2002a08u17" target="_blank" rel="noopener noreferrer">
-            <BsLinkedin size={40} className="border-4 hover:border-slate-800 rounded-full" />
+            <BsLinkedin size={40} className="border-4 hover:border-cyan-300 rounded-full" />
           </a>
           <a href="https://www.github.com/anikabytes" target="_blank" rel="noopener noreferrer">
-            <BsGithub size={40} className="border-4 hover:border-slate-800 rounded-full" />
+            <BsGithub size={40} className="border-4 hover:border-cyan-300 rounded-full" />
           </a>
           <a href="https://www.twitter.com/anikaa_tweets" target="_blank" rel="noopener noreferrer">
-            <BsTwitter size={40} className="border-4 hover:border-slate-800 rounded-full" />
+            <BsTwitter size={40} className="border-4 hover:border-cyan-300 rounded-full" />
           </a>
         </div>
       </div>

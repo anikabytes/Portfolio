@@ -16,13 +16,15 @@ const App = () => {
   const projectsRef = useRef(null);
 
   // Function to scroll to a specific section
+  // bg-gradient-to-r from-black via-cyan-500 to-black
+  //  className="bg-cover bg-center bg-repeat min-h-screen" style={{ backgroundImage: `url(${bg2})` }}
   const scrollToSection = (ref) => {
     ref.current.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
-    <div className="bg-gradient-to-r from-black via-cyan-500 to-black">
-      {/* Pass the scrollToSection function and refs to the Navbar */}
+    <div className="bg-slate-900 w-full h-full">
+      
       <Navbar
         scrollToSkills={() => scrollToSection(skillsRef)}
         scrollToExperiences={() => scrollToSection(experiencesRef)}
