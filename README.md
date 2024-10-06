@@ -3,7 +3,7 @@
 I have created this Portfolio using Vite, React JS & Tailwind CSS. 
 
 ### Features 
-• Skills 
+<br> • Skills </br>
 • Experiences 
 • Education 
 • Projects 
