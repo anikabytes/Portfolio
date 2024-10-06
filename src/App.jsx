@@ -31,7 +31,7 @@ const App = () => {
         scrollToEducation={() => scrollToSection(educationRef)}
         scrollToProjects={() => scrollToSection(projectsRef)}
         scrollToAchievements={() => scrollToSection(achievementsRef)}
-        scrollToProjects={() => scrollToSection(projectsRef)}
+        
       />
 
       {/* Sections */}
