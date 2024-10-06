@@ -26,10 +26,11 @@ const Achievements = () => {
 
 
   return (
-    <div className=" border-4 animate-border-pulse border-cyan-300 m-5 sm:m-20 max-w-full  p-5">
-      <div className="grid justify-items-center m-5 md:m-10">
-        <h1 className="animate-pulse text-3xl text-cyan-300 mt-10 font-serif font-extrabold">ACHIEVEMENTS</h1>
-      </div>
+    <div className="min-h-screen bg-slate-900 bg-opacity-35 text-white flex flex-col justify-center items-center">
+      <div className="w-full max-w-5xl border-4 border-cyan-300 animate-border-pulse m-5 sm:m-20 p-5">
+        <div className="grid justify-items-center m-5 md:m-10">
+          <h1 className="animate-pulse text-3xl text-cyan-300 mt-10 font-serif font-extrabold">ACHIEVEMENTS</h1>
+        </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 p-5">
         {achieve.map((achieve, index) => (
@@ -45,6 +46,7 @@ const Achievements = () => {
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 };

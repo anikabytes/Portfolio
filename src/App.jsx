@@ -6,6 +6,7 @@ import Education from "./screens/Education";
 import Achievements from "./screens/Achievements";
 import Projects from "./screens/Projects";
 import MyProfile from "./screens/Profile";
+import Thesis from "./screens/Thesis";
 
 const App = () => {
   // Create refs for each section
@@ -13,25 +14,24 @@ const App = () => {
   const experiencesRef = useRef(null);
   const educationRef = useRef(null);
   const achievementsRef = useRef(null);
+  const thesisRef = useRef(null);
   const projectsRef = useRef(null);
 
-  // Function to scroll to a specific section
-  // bg-gradient-to-r from-black via-cyan-500 to-black
-  //  className="bg-cover bg-center bg-repeat min-h-screen" style={{ backgroundImage: `url(${bg2})` }}
+  // Function to scroll to a specific section smoothly
   const scrollToSection = (ref) => {
     ref.current.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
-    <div className="bg-slate-900 w-full h-full">
-      
+    <div className="bg-slate-900 w-full scrollbar-custom overflow-auto h-screen">
+      {/* Pass the scrollToSection function and refs to the Navbar */}
       <Navbar
         scrollToSkills={() => scrollToSection(skillsRef)}
         scrollToExperiences={() => scrollToSection(experiencesRef)}
         scrollToEducation={() => scrollToSection(educationRef)}
         scrollToProjects={() => scrollToSection(projectsRef)}
+        scrollToThesis={() => scrollToSection(thesisRef)}
         scrollToAchievements={() => scrollToSection(achievementsRef)}
-        
       />
 
       {/* Sections */}
@@ -47,6 +47,9 @@ const App = () => {
       </div>
       <div ref={projectsRef}>
         <Projects />
+      </div>
+      <div ref={thesisRef}>
+        <Thesis />
       </div>
       <div ref={achievementsRef}>
         <Achievements />
