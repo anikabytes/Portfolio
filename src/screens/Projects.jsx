@@ -3,6 +3,10 @@ import React from 'react';
 const Projects = () => {
   const projects = [
     {
+      title: "Course Tracker",
+      link: "https://anikabytes.github.io/BRACU_UG_CourseTracker"
+    },
+    {
       title: "Music Streaming Service",
       link: "https://github.com/anikabytes/BRACU_CSE370_Database_Systems_Project"
     },
@@ -20,7 +24,7 @@ const Projects = () => {
     },
     {
       title: "Tic Tac Toe",
-      link: "https://github.com/anikabytes/BRACU_CSE341_Student_TicTacToe"
+      link: "https://github.com/anikabytes/BRACU_CSE341_TicTacToe"
     },
   ];
 
