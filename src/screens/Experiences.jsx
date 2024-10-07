@@ -53,7 +53,7 @@ const Experiences = () => {
   };
   return (
     <div className="animate-border-pulse border-4 border-cyan-300 bg-opacity-35 m-5 sm:m-20 max-w-full  p-5">
-      <div className="grid justify-items-center ">
+      <div className="grid justify-items-center m-5 md:m-10">
         <h1 className="animate-pulse text-3xl font-serif font-extrabold text-cyan-300 mt-10 ">EXPERIENCE</h1>
       </div>
 
