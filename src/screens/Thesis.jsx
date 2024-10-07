@@ -16,8 +16,8 @@ const Thesis = () => {
     window.open(link, '_blank'); 
   };
   return (
-    <div className="min-h-screen bg-slate-900 bg-opacity-35 text-white flex flex-col justify-center items-center">
-      <div className="w-full max-w-5xl border-4 border-cyan-300 animate-border-pulse m-5 sm:m-20 p-5">
+    <div className="min-h-screen bg-slate-900 bg-opacity-35 text-white flex flex-col justify-center items-center sm:m-20 p-5">
+      <div className="w-full max-w-5xl border-4 border-cyan-300 animate-border-pulse ">
         <div className="grid justify-items-center m-5 md:m-10">
           <h1 className="animate-pulse text-3xl text-cyan-300 mt-10 font-serif font-extrabold">Thesis/Research</h1>
         </div>

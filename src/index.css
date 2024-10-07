@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .scrollbar-custom::-webkit-scrollbar {
-  width: 12px; /* Width of the scrollbar */
+  width: 4px; /* Width of the scrollbar */
 }
 
 .scrollbar-custom::-webkit-scrollbar-track {
@@ -12,7 +12,7 @@
 
 .scrollbar-custom::-webkit-scrollbar-thumb {
   background-color: rgba(14, 215, 215, 0.8); /* Thumb color */
-  border-radius: 10px; /* Round edges */
+  border-radius: 4px; /* Round edges */
 }
 
 .scrollbar-custom::-webkit-scrollbar-thumb:hover {
