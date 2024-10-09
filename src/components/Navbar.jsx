@@ -35,7 +35,7 @@ const Navbar = ({ scrollToSkills, scrollToExperiences, scrollToEducation, scroll
               Skills
             </button>
             <button onClick={() => { scrollToExperiences(); toggleSidebar(); }} className="hover:underline hover:underline-offset-4 hover:decoration-cyan-300 font-extrabold font-serif text-cyan-300 hover:text-white px-5 py-2 text-xl ">
-              Experiences
+              Experience
             </button>
             <button onClick={() => { scrollToEducation(); toggleSidebar(); }} className="hover:underline hover:underline-offset-4 hover:decoration-cyan-300 font-extrabold font-serif text-cyan-300 hover:text-white px-5 py-2 text-xl">
               Education 
@@ -44,7 +44,7 @@ const Navbar = ({ scrollToSkills, scrollToExperiences, scrollToEducation, scroll
             Projects
             </button>
             <button onClick={() => { scrollToThesis(); toggleSidebar(); }} className="hover:underline hover:underline-offset-4 hover:decoration-cyan-300 font-extrabold font-serif text-cyan-300 hover:text-white px-5 py-2 text-xl ">
-              Thesis/Research
+              Research Work
             </button>
             <button onClick={() => { scrollToAchievements(); toggleSidebar(); }} className="hover:underline hover:underline-offset-4 hover:decoration-cyan-300 font-extrabold font-serif text-cyan-300 hover:text-white px-5 py-2 text-xl ">
               Achievements

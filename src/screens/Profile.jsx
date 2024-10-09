@@ -1,16 +1,11 @@
 import { BsFacebook, BsTwitter, BsLinkedin, BsGithub } from "react-icons/bs";
 import MyPic from '../assets/anika_pic.jpg';
+import AnikaCV from '../assets/Anika_CV.pdf'; 
 import { useState, useEffect } from 'react';
 
 const Profile = () => {
-  const [toggle, setToggle] = useState(false);
   const [displayedText, setDisplayedText] = useState(""); 
   const fullText = "Anika Islam"; 
-
-  function ShowMore() {
-    setToggle(!toggle);
-  }
-
 
   useEffect(() => {
     let index = 0;
@@ -35,7 +30,6 @@ const Profile = () => {
           {displayedText}
         </h1>
         <p className="mt-10 text-xl font-sans">
-          
         </p>
       </div>
 
@@ -53,18 +47,20 @@ const Profile = () => {
         <p className="text-4xl mb-4 text-cyan-300 font-serif">About Me</p>
         <p className="animate-pulse text-slate-300  font-serif">
           An aspiring student of CSE 
-          <p className="animate-pulse text-slate-300  font-serif">
-            with a thirst of learning new technologies 
+          <p className="animate-pulse text-slate-300  font-serif mb-10">
+            with a thirst for learning new technologies 
           </p>
         </p>
-        <button 
-          className="bg-gradient-to-r from-teal-400 to-blue-500 hover:from-blue-500 hover:to-teal-400 text-white px-10 py-2 my-3 rounded-full  hover:text-white" 
-          onClick={ShowMore}
+        
+        <a
+          href={AnikaCV}
+          download="ANIKA ISLAM CV.pdf" 
+          className="inline-block  items-center bg-center bg-gradient-to-r from-teal-400 to-blue-500 hover:from-blue-500 hover:to-teal-400 text-white px-10 py-2 rounded-md hover:text-white"
         >
-          {toggle ? "Show Less" : "Show More"}
-        </button>
+          Resume 
+        </a>
 
-        <div className="animate-bounce flex mt-5 space-x-4 cursor-pointer">
+        <div className="animate-bounce flex mt-10 space-x-4 cursor-pointer ">
           <a href="https://www.facebook.com/anikaislamporoma" target="_blank" rel="noopener noreferrer">
             <BsFacebook size={40} className="border-4 hover:border-cyan-300 rounded-full" />
           </a>
@@ -80,7 +76,7 @@ const Profile = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 export default Profile;
