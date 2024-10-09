@@ -9,7 +9,8 @@ import htmlIcon from "../assets/html.png";
 import jsIcon from "../assets/js.png";
 import spreadsheetIcon from "../assets/spreadsheet.png";
 import cssIcon from "../assets/css.png";
-import githubIcon from "../assets/github.jpg"
+import githubIcon from "../assets/github.jpg";
+import LaTexIcon from "../assets/latex.png";
 
 
 const Skills = () => {
@@ -23,6 +24,9 @@ const Skills = () => {
       },
       { 
         icon: <img src={githubIcon} alt="GitHub" className="w-16 h-16 border-4 hover:border-cyan-300 rounded-full mb-5 mr-5 sm:mr-10 sm:mb-5" /> 
+      },
+      { 
+        icon: <img src={LaTexIcon} alt="LaTex" className="w-16 h-16 border-4 hover:border-cyan-300 rounded-full mb-5 mr-5 sm:mr-10 sm:mb-5" /> 
       },
       { 
         icon: <img src={cIcon} alt="C" className="w-16 h-16 border-4 hover:border-cyan-300 rounded-full mb-5 mr-5 sm:mr-10 sm:mb-5" /> 
