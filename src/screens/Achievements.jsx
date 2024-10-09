@@ -2,25 +2,37 @@ import React from 'react';
 
 const Achievements = () => {
   const achieve = [
+    // {
+    //   award: "BRACU AcademicBased Scholarship",
+    //   description:"For maintaing highest distinction for 10 consecutive semesters {100% scholarship - 4 times, 75% scholarship - 4 times}"
+    // },
     {
       award: "All Girls' Best Team",
-      description:"Intra University Programming Contest (IUPC),2022"
+      description:"For performing best in the Intra University Programming Contest (IUPC), 2022"
     },
+    // {
+    //   award: "BRACU Previous Academic Based Scholarship",
+    //   description:"50% Scholarship for acquiring 6A*s and 3As in O'Level and 2As in A'Level {3 times} "
+    // },
     {
       award: "AHZ Awards",
-      description:"For Excellent Performance in ALevel"
+      description:"For acquiring 2 As in May 2020 EDEXCEL IAL Examinations"
+    },
+    {
+      award: "A'Level MLIS Merit Based Scholarship",
+      description:"50% Scholarship for  acquiring 6 A*s and 3 As in May 2018 EDEXCEL IGCSE Examinations"
     },
     {
       award: "Pearson Edexcel Excellence Award",
-      description:"For Excellent Performance in OLevel"
+      description:"For acquiring 6 A*s and 3 As in May 2018 EDEXCEL IGCSE Examinations"
     },
     {
         award: "The Daily Star Awards",
-        description:"For Excellent Performance in OLevel"
+        description:"For acquiring 6 A*s and 3 As in May 2018 EDEXCEL IGCSE Examinations"
     },
     {
         award: "The Daily Sun Awards",
-        description:"For Excellent Performance in OLevel"
+        description:"For acquiring 6 A*s and 3 As in May 2018 EDEXCEL IGCSE Examinations"
     }
   ];
 
@@ -39,7 +51,7 @@ const Achievements = () => {
               <div className="animate-pulse font-serif uppercase tracking-wide text-lg font-semibold text-cyan-300">
                 {achieve.award}
               </div>
-              <div className="mt-4">
+              <div className="mt-4 text-cyan-100 font-light font-serif ">
                  {achieve.description}
               </div>
             </div>

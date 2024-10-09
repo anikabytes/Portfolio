@@ -8,7 +8,7 @@ const Thesis = () => {
       type: "Thesis",
       domain: "Medical",
       field: "Deep Learning + Image Processing",
-      duration: "Spring'24 to present"
+      duration: "September'2023 - Present"
     },
   ];
 
@@ -33,16 +33,16 @@ const Thesis = () => {
                 <div className="animate-pulse uppercase tracking-wide text-lg font-semibold text-cyan-300 font-serif">
                   <a href={item.link}>{item.title}</a>
                 </div>
-                <div className="text-left mt-4 text-white">
+                <div className="mt-4 text-cyan-100 font-light font-serif ">
                   Type: {item.type}
                 </div>
-                <div className="text-left mt-4 text-white">
+                <div className="mt-4 text-cyan-100 font-light font-serif ">
                   Domain: {item.domain}
                 </div>
-                <div className="text-left mt-4 text-white">
+                <div className="mt-4 text-cyan-100 font-light font-serif ">
                   Field: {item.field}
                 </div>
-                <div className="text-left mt-4 text-white">
+                <div className="mt-4 text-cyan-100 font-light font-serif ">
                   {item.duration}
                 </div>
               </div>

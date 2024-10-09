@@ -9,10 +9,7 @@ const Education = () => {
       degree: "Studying Bachelor of Science in Computer Science and Engineering",
       duration: "Spring, 2021 - Present",
       link: "https://www.bracu.ac.bd/"
-    }
-  ];
-
-  const studied = [
+    },
     {
       institution: "Maple Leaf International School",
       degree: "Completed Class VI to Class XII",
@@ -38,17 +35,17 @@ const Education = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 p-5">
-        <h2 className="animate-pulse underline underline-offset-8 text-xl text-cyan-300 mt-6 mb-4 col-span-full font-serif font-semibold text-center">CURRENTLY STUDYING</h2>
+        {/* <h2 className="animate-pulse underline underline-offset-8 text-xl text-cyan-300 mt-6 mb-4 col-span-full font-serif font-semibold text-center">CURRENTLY STUDYING</h2> */}
         {currentlyStudying.map((education, index) => (
           <div key={index} className="animate-border-pulse w-full bg-opacity-35 rounded-xl shadow-md shadow-cyan-300 overflow-hidden hover:animate-pulse cursor-pointer" onClick={() => handleBoxClick(education.link)}>
             <div className="p-8 text-center">
               <div className="animate-pulse uppercase tracking-wide text-lg font-semibold font-serif text-cyan-300">
                 {education.institution}
               </div>
-              <div className="mt-4 text-white">
+              <div className="mt-4 text-cyan-100 font-light font-serif">
                  {education.degree}
               </div>
-              <div className="mt-4 text-white">
+              <div className="mt-4 text-cyan-100 font-light font-serif">
                 {education.duration}
               </div>
             </div>
@@ -56,7 +53,7 @@ const Education = () => {
         ))}
       </div>
 
-      <div className="animate-border-pulse border-2 border-cyan-300 mx-auto mt-5 mb-5"></div>
+      {/* <div className="animate-border-pulse border-2 border-cyan-300 mx-auto mt-5 mb-5"></div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 p-5">
         <h2 className="animate-pulse underline underline-offset-8 text-xl text-cyan-300 mt-6 mb-4 col-span-full font-serif font-semibold text-center">STUDIED</h2>
@@ -66,16 +63,16 @@ const Education = () => {
               <div className="animate-pulse font-serif uppercase tracking-wide text-lg font-semibold text-cyan-300">
                 {education.institution}
               </div>
-              <div className="mt-4 text-white ">
+              <div className="mt-4 text-cyan-100 font-light font-serif">
                 {education.degree}
               </div>
-              <div className="mt-4 text-white">
+              <div className="mt-4 text-cyan-100 font-light font-serif">
                 {education.duration}
               </div>
             </div>
           </div>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };
