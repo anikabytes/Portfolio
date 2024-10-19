@@ -33,7 +33,7 @@ const Thesis = () => {
                 <div className="animate-pulse uppercase tracking-wide text-lg font-semibold text-cyan-300 font-serif">
                   <a href={item.link}>{item.title}</a>
                 </div>
-                <div className="mt-4 text-cyan-100 font-light font-serif ">
+                <div className="mt-4 text-cyan-100 font-light font-serif  ">
                   Type: {item.type}
                 </div>
                 <div className="mt-4 text-cyan-100 font-light font-serif ">

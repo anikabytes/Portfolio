@@ -26,6 +26,11 @@ const Projects = () => {
       title: "Tic Tac Toe",
       link: "https://github.com/anikabytes/BRACU_CSE341_TicTacToe"
     },
+    {
+      title: "Grading System",
+      link: "https://github.com/anikabytes/Grading_App"
+    },
+    
   ];
 
   const handleBoxClick = (link) => {
