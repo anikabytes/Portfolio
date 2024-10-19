@@ -7,6 +7,7 @@ import Achievements from "./screens/Achievements";
 import Projects from "./screens/Projects";
 import MyProfile from "./screens/Profile";
 import Thesis from "./screens/Thesis";
+import Footer from "./components/Footer"
 
 const App = () => {
   // Create refs for each section
@@ -54,6 +55,7 @@ const App = () => {
       <div ref={achievementsRef}>
         <Achievements />
       </div>
+      <Footer />
     </div>
   );
 };
