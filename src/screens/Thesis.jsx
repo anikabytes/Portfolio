@@ -7,8 +7,17 @@ const Thesis = () => {
       link: "https://github.com/anikabytes/BRACU_Undergrad_Thesis",
       type: "Thesis",
       domain: "Medical",
-      field: "Deep Learning + Image Processing",
+      field: "Deep Learning, Image Processing, Explainable AI",
       duration: "September'2023 - Present"
+    },
+
+    {
+      title: "Survey on Review Papers",
+      domain : "Not decided yet",
+      type: "Project",
+      
+      field: "Machine Learning, Artificial Intelligence",
+      duration: "October'2024 - Present"
     },
   ];
 
