@@ -7,6 +7,7 @@ import Achievements from "./screens/Achievements";
 import Projects from "./screens/Projects";
 import MyProfile from "./screens/Profile";
 import Thesis from "./screens/Thesis";
+import CP from "./screens/CP";
 import Footer from "./components/Footer"
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
   const educationRef = useRef(null);
   const achievementsRef = useRef(null);
   const thesisRef = useRef(null);
+  const CPRef = useRef(null);
   const projectsRef = useRef(null);
 
   // Function to scroll to a specific section smoothly
@@ -32,6 +34,7 @@ const App = () => {
         scrollToEducation={() => scrollToSection(educationRef)}
         scrollToProjects={() => scrollToSection(projectsRef)}
         scrollToThesis={() => scrollToSection(thesisRef)}
+        scrollToCP={() => scrollToSection(CPRef)}
         scrollToAchievements={() => scrollToSection(achievementsRef)}
       />
 
@@ -52,6 +55,9 @@ const App = () => {
       <div ref={thesisRef}>
         <Thesis />
       </div>
+      {/* <div ref={CPRef}>
+        <CP />
+      </div> */}
       <div ref={achievementsRef}>
         <Achievements />
       </div>

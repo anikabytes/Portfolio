@@ -3,7 +3,7 @@ import { CgNametag } from "react-icons/cg";
 import { FaBars } from "react-icons/fa"; 
 import { RxCross2 } from "react-icons/rx";
 
-const Navbar = ({ scrollToSkills, scrollToExperiences, scrollToEducation, scrollToAchievements, scrollToProjects,scrollToThesis }) => {
+const Navbar = ({ scrollToSkills, scrollToExperiences, scrollToEducation, scrollToAchievements, scrollToProjects,scrollToThesis, scrollToCP }) => {
   const [isOpen, setIsOpen] = useState(false); 
 
   
@@ -14,7 +14,7 @@ const Navbar = ({ scrollToSkills, scrollToExperiences, scrollToEducation, scroll
   return (
     <nav>
       <div className="flex items-center justify-between p-10 lg:flex-row">
-        <div className=" animate-pulse text-cyan-300 font-mono text-md tracking-wider flex items-center">
+        <div className=" animate-pulse text-cyan-300 font-mono text-sm text-start tracking-wider flex items-center">
           <CgNametag /> Anika's Portfolio
         </div>
 
@@ -46,6 +46,9 @@ const Navbar = ({ scrollToSkills, scrollToExperiences, scrollToEducation, scroll
             <button onClick={() => { scrollToThesis(); toggleSidebar(); }} className="hover:underline hover:underline-offset-4 hover:decoration-cyan-300 font-extrabold font-serif text-cyan-300 hover:text-white px-5 py-2 text-xl ">
               Research Work
             </button>
+            {/* <button onClick={() => { scrollToCP(); toggleSidebar(); }} className="hover:underline hover:underline-offset-4 hover:decoration-cyan-300 font-extrabold font-serif text-cyan-300 hover:text-white px-5 py-2 text-xl ">
+              Competitive Programming
+            </button> */}
             <button onClick={() => { scrollToAchievements(); toggleSidebar(); }} className="hover:underline hover:underline-offset-4 hover:decoration-cyan-300 font-extrabold font-serif text-cyan-300 hover:text-white px-5 py-2 text-xl ">
               Achievements
             </button>
@@ -54,24 +57,28 @@ const Navbar = ({ scrollToSkills, scrollToExperiences, scrollToEducation, scroll
 
         
         <div className="hidden lg:block space-x-0">
-          <button onClick={scrollToSkills} className="animate-pulse hover:underline hover:underline-offset-4 hover:decoration--white font-extrabold font-serif text-cyan-300 hover:text-white px-5 py-2 text-xl ">
+          <button onClick={scrollToSkills} className="animate-pulse hover:underline hover:underline-offset-4 hover:decoration--white font-extrabold font-serif text-cyan-300 hover:text-white px-5 py-2 text-l ">
             Skills
           </button>
-          <button onClick={scrollToExperiences} className="animate-pulse hover:underline hover:underline-offset-4 hover:decoration--white font-extrabold font-serif text-cyan-300 hover:text-white px-5 py-2 text-xl ">
+          <button onClick={scrollToExperiences} className="animate-pulse hover:underline hover:underline-offset-4 hover:decoration--white font-extrabold font-serif text-cyan-300 hover:text-white px-5 py-2 text-l  ">
             Experience
           </button>
-          <button onClick={scrollToEducation} className="animate-pulse hover:underline hover:underline-offset-4 hover:decoration--white font-extrabold font-serif text-cyan-300 hover:text-white px-5 py-2 text-xl ">
+          <button onClick={scrollToEducation} className="animate-pulse hover:underline hover:underline-offset-4 hover:decoration--white font-extrabold font-serif text-cyan-300 hover:text-white px-5 py-2 text-l  ">
             Education
           </button>
-          <button onClick={scrollToProjects} className="animate-pulse hover:underline hover:underline-offset-4 hover:decoration-white font-extrabold font-serif text-cyan-300 hover:text-white px-5 py-2 text-xl ">
+          <button onClick={scrollToProjects} className="animate-pulse hover:underline hover:underline-offset-4 hover:decoration-white font-extrabold font-serif text-cyan-300 hover:text-white px-5 py-2 text-l ">
           Projects
           </button>
-          <button onClick={scrollToThesis} className="animate-pulse hover:underline hover:underline-offset-4 hover:decoration--white font-extrabold font-serif text-cyan-300 hover:text-white px-5 py-2 text-xl ">
+          <button onClick={scrollToThesis} className="animate-pulse hover:underline hover:underline-offset-4 hover:decoration--white font-extrabold font-serif text-cyan-300 hover:text-white px-5 py-2 text-l  ">
           Research Work
           </button>
-          <button onClick={scrollToAchievements} className="animate-pulse hover:underline hover:underline-offset-4 hover:decoration--white font-extrabold font-serif text-cyan-300 hover:text-white px-5 py-2 text-xl ">
+          {/* <button onClick={scrollToCP} className="animate-pulse hover:underline hover:underline-offset-4 hover:decoration--white font-extrabold font-serif text-cyan-300 hover:text-white  text-l  ">
+            Competitive Programming
+          </button> */}
+          <button onClick={scrollToAchievements} className="animate-pulse hover:underline hover:underline-offset-4 hover:decoration--white font-extrabold font-serif text-cyan-300 hover:text-white px-5 py-2 text-l  ">
             Achievements
           </button>
+
         </div>
       </div>
     </nav>
