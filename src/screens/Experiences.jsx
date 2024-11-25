@@ -24,7 +24,7 @@ const Experiences = () => {
     {
       company: "MQ's School Of Mathematics",
       role: "EDEXCEL IAL Mathematics Teaching Assistant ",
-      duration: "June, 2023 - Present",
+      duration: "June, 2023 - July,2024",
       description: "", //"Teaching EDEXCEL IAL Mathematics",
       link: "https://www.facebook.com/mqsirofficial2023"
     },
