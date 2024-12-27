@@ -7,6 +7,10 @@ const Achievements = () => {
     //   description:"For maintaing highest distinction for 10 consecutive semesters {100% scholarship - 4 times, 75% scholarship - 4 times}"
     // },
     {
+      award: "BUCC IntraHactive 1.0 Participation Certification",
+      description:"For participating in the Database Wizard segment of IntraHactive 1.0"
+    },
+    {
       award: "All Girls' Best Team",
       description:"For performing best in the Intra University Programming Contest (IUPC), 2022"
     },
