@@ -3,6 +3,10 @@ import React from 'react';
 const Projects = () => {
   const projects = [
     {
+      title: "Plant Image Segmentation",
+      link: "https://github.com/anikabytes/BRACU_CSE428_Plant_Image_Segmentation_Using_U-Net"
+    },
+    {
       title: "Course Tracker",
       link: "https://anikabytes.github.io/BRACU_UG_CourseTracker"
     },

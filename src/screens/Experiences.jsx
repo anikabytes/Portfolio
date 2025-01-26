@@ -5,21 +5,23 @@ import React from 'react';
 const Experiences = () => {
 
   const currentJobs = [
-    {
-      company: "BRAC University",
-      role: "CSE Student Tutor (ST)",
-      duration: "February, 2024 - Present",
-      description: "",
-      link: "https://www.bracu.ac.bd/"
-    },
 
     {
       company: "Physics-The Study Town",
       role: "EDEXCEL IAL Physics Teaching Assistant",
-      duration: "September, 2023 - Present",
+      duration: "October, 2023 - Present",
       description: "", //"Invigilating Exams and Checking Scripts",
       link: "https://www.facebook.com/Physicstst"
     },
+
+    {
+      company: "BRAC University",
+      role: "CSE Student Tutor (ST)",
+      duration: "February, 2024 - January 2025",
+      description: "",
+      link: "https://www.bracu.ac.bd/"
+    },
+
 
     {
       company: "MQ's School Of Mathematics",

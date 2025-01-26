@@ -2,13 +2,22 @@ import React from 'react';
 
 const Achievements = () => {
   const achieve = [
-    // {
-    //   award: "BRACU AcademicBased Scholarship",
-    //   description:"For maintaing highest distinction for 10 consecutive semesters {100% scholarship - 4 times, 75% scholarship - 4 times}"
-    // },
+
+    {
+      award: "BRAC University Vice Chancellor's List",
+      description:"Appeared 11 times for maintaining a GPA of 3.90 or more for 11 consecutive semesters"
+
+    },
+
+    {
+      award: "BRAC University Merit Based Scholarship",
+      description:"Received 100% scholarship for 3 consecutive semesters & 75% for 5 consecutive semesters based on BRACU Academics || Received 50% scholarship for 3 consecutive semesters based on previous academics"
+
+    },
+
     {
       award: "BUCC IntraHactive 1.0 Participation Certification",
-      description:"For participating in the Database Wizard segment of IntraHactive 1.0"
+      description:"For participating in the final round of  Database Wizard segment of BUCC IntraHactive 1.0"
     },
     {
       award: "All Girls' Best Team",

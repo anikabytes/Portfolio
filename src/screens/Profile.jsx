@@ -58,7 +58,7 @@ const Profile = () => {
           download="ANIKA ISLAM CV.pdf" 
           className="inline-block  items-center bg-center bg-gradient-to-r from-teal-400 to-blue-500 hover:from-blue-500 hover:to-teal-400 text-white px-10 py-2 rounded-md hover:text-white"
         >
-          Resume 
+          Download CV
         </a>
 
         <div className="animate-bounce flex mt-10 space-x-4 cursor-pointer ">
