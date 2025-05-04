@@ -7,7 +7,7 @@ const Education = () => {
     {
       institution: "BRAC University",
       degree: "Studying Bachelor of Science in Computer Science and Engineering",
-      duration: "Spring, 2021 - Present",
+      duration: "Spring, 2021 - Fall,2024",
       link: "https://www.bracu.ac.bd/"
     },
     {
