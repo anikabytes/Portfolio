@@ -15,6 +15,14 @@ const Experiences = () => {
     },
 
     {
+      company: "Chemistry-The Study Town",
+      role: "EDEXCEL IGCSE Chemistry Substitute Teaching Assistant",
+      duration: "February,2025 - April,2025",
+      description: "", //"Worked as Substitute Teaching Assistant for checking scripts",
+      link: "https://www.facebook.com/profile.php?id=100057186710936"
+    },
+
+    {
       company: "BRAC University",
       role: "CSE Student Tutor (ST)",
       duration: "February, 2024 - January 2025",

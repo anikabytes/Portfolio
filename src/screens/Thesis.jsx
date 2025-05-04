@@ -8,7 +8,16 @@ const Thesis = () => {
       type: "Thesis",
       domain: "Medical",
       field: "Deep Learning, Image Processing, Explainable AI",
-      duration: "September'2023 - Present"
+      duration: "September'2023 - February'2025"
+    },
+
+    {
+      title: "Not Decided",
+      domain : "Education",
+      type: "Project",
+      
+      field: "HCI",
+      duration: "March'2025-Present"
     },
 
     {
