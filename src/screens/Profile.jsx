@@ -1,6 +1,6 @@
 import { BsFacebook, BsTwitter, BsLinkedin, BsGithub } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
-import MyPic from '../assets/anika_pic.jpg';
+import MyPic from '../assets/anika_pic2.png';
 import AnikaCV from '../assets/Anika_CV.pdf'; 
 import { useState, useEffect } from 'react';
 
@@ -34,13 +34,13 @@ const Profile = () => {
         </p>
       </div>
 
-      <div className='w-1/3 items-center'>
+      <div className=' w-1/3 items-center'>
         <img 
           src={MyPic} 
           alt="Anika" 
           width={200} 
           height={200}
-          className="animate-border-pulse rounded-full w-fit border-8 border-cyan-300 hover:border-cyan-500"
+          className="animate-border-pulse rounded-xl w-fit border-8 border-cyan-300 hover:border-cyan-500"
         />
       </div>
 
